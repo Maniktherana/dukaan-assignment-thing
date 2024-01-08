@@ -9,7 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Overview = () => {
   return (
-    <div className="pt-6 pb-4 px-6">
+    <div className="pt-6 pb-4 px-6 max-w-screen-2xl">
       <div className="flex flex-row justify-between items-center mb-5">
         <h2 className="text-[20px]">Overview</h2>
         <Select>
